@@ -1,6 +1,6 @@
 <h1>Smarter Mobility Data Challenge</h1>
 This repository contains the code for forecasting occupation of charging stations in Paris, in order for utilities to optimize their production units in accordance with charging needs.
-fsdfijsd
+
 <br>
 <h3>Installation</h3>
 To install the necessary dependencies, create a virtual environment and activate it:
