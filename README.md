@@ -1,8 +1,9 @@
 <h1>Smarter Mobility Data Challenge</h1>
 This repository contains the code for forecasting occupation of charging stations in Paris, in order for utilities to optimize their production units in accordance with charging needs.
+fsdfijsd
 <br>
 <h3>Installation</h3>
-To install the necessary dependencies, create a virtual environment and activate it.
+To install the necessary dependencies, create a virtual environment and activate it:
 
     pip install virtualenv
 
@@ -27,7 +28,6 @@ You can now install the necessary packages and run the code in the virtual envir
 This will install all the required packages listed in the `requirements.txt` file.
 
 <h3>Code style</h3>
-Code is compliant with `black`, `isort`, and `pylint`.
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
@@ -35,11 +35,12 @@ Code is compliant with `black`, `isort`, and `pylint`.
 
 
 <h3>Usage</h3>
-To run the electricity forecast task, use the following command:
+To run the charging status forecast task, use the following command:
 
     python src/main.py
-This will execute the code in the `src/main.py` file and generate the electricity forecast.
+This will execute the code in the `src/main.py` file and generate the charging status forecast.
 
 <h3>Notes</h3>
-You may need to modify the `src/main.py` file to specify the input data and parameters for the forecast.
-The forecast results will be saved in the `output` directory.
+
+You may need to modify the `src/main.py` file to specify the input data and parameters for the task.
+The charging status forecast results will be saved in the `output` directory.
